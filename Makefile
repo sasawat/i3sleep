@@ -3,3 +3,6 @@ i3sleep:
 
 install: i3sleep
 	cp ./i3sleep /usr/bin/i3sleep
+
+clean:
+	rm -rfv i3sleep
